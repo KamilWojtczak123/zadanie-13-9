@@ -1,7 +1,7 @@
 var http = require('http');
 var colors = require('colors');
 
-var handlers = require('.modules/handlers'); // nasz moduł
+var handler = require('.modules/handlers'); // nasz moduł
 
 function start() {
     function onRequest(request, response) {
